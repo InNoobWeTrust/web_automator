@@ -1,0 +1,20 @@
+[package]
+name = "web_automator"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+log = "0.4"
+tokio = { version = "1", features = ["full"] }
+url = "2.2"
+rand = "0.8"
+rand_distr = "0.4"
+fantoccini = "0.21.2"
+env_logger = "0.11.5"
+serde = "1.0.215"
+serde_json = "1.0.133"
+serde_yaml = "0.9.34"
+tokio-stream = "0.1.16"
